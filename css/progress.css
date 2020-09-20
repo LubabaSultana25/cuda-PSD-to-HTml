@@ -1,0 +1,67 @@
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+
+svg.radial-progress circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 10;
+}
+
+svg.radial-progress.webDesignP circle.incomplete {
+    stroke: #dfe8ed;
+}
+
+svg.radial-progress.htmlP circle.incomplete {
+    stroke: #dfe8ed;
+}
+
+svg.radial-progress.graphicsP circle.incomplete {
+    stroke: #dfe8ed;
+}
+
+svg.radial-progress.uiP circle.incomplete {
+    stroke: #dfe8ed;
+}
+
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+    fill: #3c4761;
+    text-anchor: middle;
+}
+
+svg.radial-progress.webDesignP circle {
+    fill: rgba(255, 255, 255, 0);
+    stroke: #30bae7;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 8;
+}
+
+svg.radial-progress.htmlP circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #d74680;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 8;
+}
+
+svg.radial-progress.graphicsP circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #15c7a8;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 8;
+}
+
+svg.radial-progress.uiP circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #eb7d4b;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 8;
+}
